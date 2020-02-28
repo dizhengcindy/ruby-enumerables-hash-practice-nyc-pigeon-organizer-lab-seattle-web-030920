@@ -17,9 +17,9 @@ def nyc_pigeon_organizer(data)
         end
       end
       
-      p memo2
+       memo2
   end
- p memo1
+  memo1
 end    
 newHash
   
