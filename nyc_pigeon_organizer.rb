@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
     
       array.each do |name|
         #key2 still a key not string
-        binding.pry
+        
         if newHash[name][key1]
           newHash[name][key1].push(key2.to_s) 
         else
