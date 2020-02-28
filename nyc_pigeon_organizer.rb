@@ -4,9 +4,9 @@ def nyc_pigeon_organizer(data)
   newHash = {}
   
   data.reduce({}) do |memo1, (key1,hash)| 
-       
+       memo1[key1] = hash
     hash.reduce({}) do |memo2, (key2,array)|
-    
+    memo2[key2] = array
       array.each do |name|
           newHash[name][key1].push(key2) 
       end
