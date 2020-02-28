@@ -13,11 +13,8 @@ def nyc_pigeon_organizer(data)
         if newHash[name][key1]
           newHash[name][key1].push(key2) 
         else
-          newHash[name][key1]
-         
-          newHash = {
-            name => key1
-          }
+          newHash[name][key1] = []
+        end
       end
        memo2
   end
