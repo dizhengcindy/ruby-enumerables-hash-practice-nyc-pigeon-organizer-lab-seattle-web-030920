@@ -10,9 +10,9 @@ def nyc_pigeon_organizer(data)
       array.each do |name|
           newHash[name][key1].push(key2) 
       end
-      p memo2
+       memo2
   end
- p memo1
+  memo1
 end    
 newHash
   
